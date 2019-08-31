@@ -1,0 +1,29 @@
+{
+  "name": "mf-logger",
+  "version": "1.0.0",
+  "description": "Common logging wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "standard"
+  },
+  "keywords": [
+    "nivi",
+    "logging",
+    "pino",
+    "debug"
+  ],
+  "author": "Gopal Raichur <gopal.raichur@mobifilia.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "pino": "^5.13.2"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "standard": "^13.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:mobifiliallp/mf-logger.git"
+  }
+}
